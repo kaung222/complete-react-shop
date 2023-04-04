@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import Navbar from "../components/Navbar";
-import heroImage from "../assets/heroImage.png";
+import Hero from "../assets/heroImage.png";
 import { StateContext } from "../context/StateContext";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import WhyUs from "../components/home/WhyUs";
@@ -17,7 +17,7 @@ const HomePage = () => {
       {/* hero section start  */}
       <div className="h-[90vh] w-screen flex justify-center items-center">
         <img
-          src={heroImage}
+          src={Hero}
           alt="..."
           className="absolute  w-full md:w-1/5 md:ml-[300px]"
         />
